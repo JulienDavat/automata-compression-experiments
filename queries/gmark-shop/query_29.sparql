@@ -1,0 +1,1 @@
+PREFIX : <http://example.org/gmark/> SELECT  ?x0 WHERE {   ?x0 ((^:planguage/^:ppurchaseFor)|(^:planguage/:pcontentSize/^:pprice)) ?x1 . ?x1 (((:ppurchaseFor/:phasReview/^:phasReview/^:ppurchaseFor)|(:ppurchaseFor/^:ppurchaseFor)))+ ?x2 . ?x2 (:ppurchaseFor/^:ppurchaseFor)+ ?x3 .  }

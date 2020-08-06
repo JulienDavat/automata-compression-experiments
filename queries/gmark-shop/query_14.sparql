@@ -1,0 +1,1 @@
+PREFIX : <http://example.org/gmark/> SELECT  ?x0 ?x1 ?x2 WHERE {   ?x0 (:previewer/:pnationality) ?x1 . ?x0 ((:prating/^:puserId/:pnationality)|(:previewer/:pnationality)|(:previewer/:pnationality)) ?x2 . ?x0 ((:previewer/:plocation/:pparentContry)|(:previewer/:pnationality)) ?x3 . ?x0 (:previewer/:pnationality) ?x4 .  }

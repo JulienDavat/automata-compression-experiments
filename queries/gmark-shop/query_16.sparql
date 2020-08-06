@@ -1,0 +1,1 @@
+PREFIX : <http://example.org/gmark/> SELECT  ?x0 WHERE {   ?x0 (((^:phomepage/:psubscribes)|(^:psubscribes/^:pactor/:pactor/:phomepage)))+ ?x1 . ?x0 (^:psubscribes/:plike/^:plike/^:pemployee)+ ?x2 . ?x1 (^:phomepage/:plike/^:plike/^:pemployee)+ ?x3 .  }

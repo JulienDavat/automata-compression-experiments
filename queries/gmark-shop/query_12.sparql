@@ -1,0 +1,1 @@
+PREFIX : <http://example.org/gmark/> SELECT  ?x0 ?x1 ?x2 WHERE {   ?x0 (:previewer) ?x1 . ?x1 (^:pfriendOf)+ ?x2 . ?x2 (:pbirthDate) ?x3 . ?x4 (:pexpires) ?x3 .  }

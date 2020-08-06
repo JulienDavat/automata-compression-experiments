@@ -1,0 +1,2422 @@
+[
+    {
+        "name": "001TPTinverseOneMatch",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 203,
+        "transferSize": 349,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "002TPTinverseSelfloop",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 190,
+        "transferSize": 352,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "003TPTinverseNoSubject",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 215,
+        "transferSize": 356,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "004TPTinverseNoObject",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 205,
+        "transferSize": 359,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "005TPTinverseNoObjectSubject",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 218,
+        "transferSize": 370,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "006TPTinverseNoPredicate",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 208,
+        "transferSize": 354,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "007TPTsequenceOneMatch",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 222,
+        "transferSize": 506,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "008TPTsequenceSelfloop",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 211,
+        "transferSize": 512,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "009TPTsequenceCycle",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 212,
+        "transferSize": 505,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "010TPTsequenceNoSubject",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 218,
+        "transferSize": 512,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "011TPTsequenceNoObject",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 191,
+        "transferSize": 512,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "012TPTsequenceNoObjectSubject",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 225,
+        "transferSize": 524,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "013TPTsequenceNoPredicate",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 228,
+        "transferSize": 523,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "014TPTalternativeOneMatch",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 223,
+        "transferSize": 730,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "015TPTalternativeSelfloop",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 208,
+        "transferSize": 734,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "016TPTalternativeNoSubject",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 228,
+        "transferSize": 665,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "017TPTalternativeNoObject",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 220,
+        "transferSize": 730,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "018TPTalternativeNoObjectSubject",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 236,
+        "transferSize": 667,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "019TPTalternativeNoPredicate",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 212,
+        "transferSize": 667,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "020TPTexistOneMatch",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 233,
+        "transferSize": 365,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "021TPTexistSelfloop",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 221,
+        "transferSize": 369,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "022TPTexistNoSubjectObjectPredicate",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 225,
+        "transferSize": 343,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "023TPTexistSubjectObjectSame",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 220,
+        "transferSize": 345,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "024TPTexistNoSubject",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 222,
+        "transferSize": 334,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "025TPTexistNoObject",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 206,
+        "transferSize": 368,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "026TPTexistNoObjectSubject",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 214,
+        "transferSize": 333,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "027TPTexistNoPedicate",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 219,
+        "transferSize": 332,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "028TPTexistNoPredicateWithMatch",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 217,
+        "transferSize": 333,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "029TPT+OneMatch",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 198,
+        "transferSize": 690,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "030TPT+Selfloop",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 226,
+        "transferSize": 736,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "031TPT+CycleLengthTwo",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 219,
+        "transferSize": 1472,
+        "requests": 4,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "032TPT+NoSubject",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 187,
+        "transferSize": 332,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "033TPT+NoObject",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 215,
+        "transferSize": 1473,
+        "requests": 4,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "034TPT+NoObjectSubject",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 214,
+        "transferSize": 333,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "035TPT+NoPredicate",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 210,
+        "transferSize": 333,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "036TPT+PathLengthOne",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 233,
+        "transferSize": 688,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "037TPT+PathLengthtwo",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 204,
+        "transferSize": 1063,
+        "requests": 3,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "038TPT+PathLengthFive",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 231,
+        "transferSize": 2583,
+        "requests": 7,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "039TPT+CycleLengthTwo",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 229,
+        "transferSize": 1471,
+        "requests": 4,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "040TPT+CycleLengthFive",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 247,
+        "transferSize": 2579,
+        "requests": 7,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "041TPTstarSelfloop",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 223,
+        "transferSize": 367,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "042TPTstarNoSubject",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 203,
+        "transferSize": 336,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "043TPTstarNoObject",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 218,
+        "transferSize": 691,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "044TPTstarNoObjectSubject",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 215,
+        "transferSize": 336,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "045TPTstarNoPredicate",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 236,
+        "transferSize": 332,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "046TPTstarPathLengthZero",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 202,
+        "transferSize": 323,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "047TPTstarPathLengthOne",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 235,
+        "transferSize": 690,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "048TPTstarPathLengthTwo",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 223,
+        "transferSize": 1063,
+        "requests": 3,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "049TPTstarPathLengthFive",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 246,
+        "transferSize": 2214,
+        "requests": 6,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "050TPTstarCycleLengthTwo",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 246,
+        "transferSize": 1104,
+        "requests": 3,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "051TPTstarCycleLengthFive",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 239,
+        "transferSize": 2213,
+        "requests": 6,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "052TPTnegatedSelfloop",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 190,
+        "transferSize": 555,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "053TPTnegatedNoSubject",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 222,
+        "transferSize": 309,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "054TPTnegatedNoObject",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 219,
+        "transferSize": 643,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "055TPTnegatedNoObjectSubject",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 218,
+        "transferSize": 310,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "056TPTnegatedTwoPredicatesTrue",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 198,
+        "transferSize": 554,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "057TPTnegatedTwoPredicatesFalse",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 214,
+        "transferSize": 554,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "058TPTinvnegSelfloop",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 222,
+        "transferSize": 554,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "059TPTinvnegNoSubject",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 231,
+        "transferSize": 309,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "060TPTinvnegNoObject",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 214,
+        "transferSize": 555,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "061TPTinvnegNoObjectSubject",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 226,
+        "transferSize": 310,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "062TPTinvnegTwoPredicatesTrue",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 208,
+        "transferSize": 634,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "063TPTinvnegTwoPredicatesFalse",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 200,
+        "transferSize": 635,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "064TPTcombSelfloop",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 208,
+        "transferSize": 1111,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "065TPTcombNoSubject",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 219,
+        "transferSize": 620,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "066TPTcombNoObject",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 231,
+        "transferSize": 1116,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "067TPTcombNoObjectSubject",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 214,
+        "transferSize": 621,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "068TPTcombOnePredicateEach",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 238,
+        "transferSize": 1110,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "069TPTcombTwoPredicatesEach",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 226,
+        "transferSize": 1611,
+        "requests": 4,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "070TPTcombPredicatesNotExisting",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 233,
+        "transferSize": 1110,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "071TPTcombFiveToOneRatio",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 197,
+        "transferSize": 1110,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "072TPTcombOneToFiveRatio",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 216,
+        "transferSize": 1108,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "073TPTcombSamePredicateBoth",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 226,
+        "transferSize": 383,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "074TPVinverseOneMatch",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 224,
+        "transferSize": 358,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "075TPVinverseThreeMatches",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 223,
+        "transferSize": 434,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "076TPVinverseSelfloop",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 228,
+        "transferSize": 360,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "077TPVinverseNoSubject",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 205,
+        "transferSize": 329,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "078TPVinverseNoPredicate",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 208,
+        "transferSize": 327,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "079TPVsequenceOneMatch",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 226,
+        "transferSize": 514,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "080TPVsequenceThreeMatches",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 218,
+        "transferSize": 593,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "081TPVsequenceSelfloop",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 204,
+        "transferSize": 519,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "082TPVsequenceCycle",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 195,
+        "transferSize": 514,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "083TPVsequenceNoSubject",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 229,
+        "transferSize": 485,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "084TPVsequenceNoPredicate",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 212,
+        "transferSize": 484,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "085TPValternativeOneMatch",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 217,
+        "transferSize": 732,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "086TPValternativeThreeMatches",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 224,
+        "transferSize": 776,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "087TPValternativeSelfloop",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 226,
+        "transferSize": 692,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "088TPValternativeNoSubject",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 220,
+        "transferSize": 663,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "089TPValternativeNoPredicate",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 209,
+        "transferSize": 669,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "090TPValternativeSamePredicate",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 222,
+        "transferSize": 731,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "091TPVexistTwoMatches",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 223,
+        "transferSize": 365,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "092TPVexistFourMatches",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 219,
+        "transferSize": 451,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "093TPVexistSelfloop",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 235,
+        "transferSize": 369,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "094TPVexistNoSubject",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 228,
+        "transferSize": 332,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "095TPVexistNoPredicate",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 208,
+        "transferSize": 333,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "096TPVexistNoPredicateSubject",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 234,
+        "transferSize": 342,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "097TPV+OneMatch",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 231,
+        "transferSize": 689,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "098TPV+ThreeMatches",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 245,
+        "transferSize": 1424,
+        "requests": 4,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "099TPV+Selfloop",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 219,
+        "transferSize": 737,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "100TPV+NoSubject",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 219,
+        "transferSize": 333,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "101TPV+NoPredicate",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 219,
+        "transferSize": 333,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "102TPV+PathLenghtTwo",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 230,
+        "transferSize": 1063,
+        "requests": 3,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "103TPV+PathLengthFive",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 247,
+        "transferSize": 2169,
+        "requests": 6,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "104TPV+CycleLengthThree",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 235,
+        "transferSize": 1470,
+        "requests": 4,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "105TPV+CycleLengthFive",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 261,
+        "transferSize": 2580,
+        "requests": 7,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "106TPVstarFourMatches",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 238,
+        "transferSize": 1423,
+        "requests": 4,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "107TPVstarSelfloop",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 232,
+        "transferSize": 368,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "108TPVstarNoSubject",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 225,
+        "transferSize": 332,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "109TPVstarNoPredicate",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 230,
+        "transferSize": 331,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "110TPVstarPathLengthTwo",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 215,
+        "transferSize": 1064,
+        "requests": 3,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "111TPVstarPathLengthFive",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 294,
+        "transferSize": 2168,
+        "requests": 6,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "112TPVstarCycleLengthThree",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 239,
+        "transferSize": 1103,
+        "requests": 3,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "113TPVstarCycleLengthSix",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 274,
+        "transferSize": 2215,
+        "requests": 6,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "114TPVnegatedSelfloop",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 218,
+        "transferSize": 553,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "115TPVnegatedNoSubject",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 209,
+        "transferSize": 309,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "116TPVnegatedOnePredicate",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 202,
+        "transferSize": 556,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "117TPVnegatedTwoPredicates",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 222,
+        "transferSize": 554,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "118TPVnegatedNoPredicate",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 218,
+        "transferSize": 555,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "119TPVinvnegSelfloop",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 242,
+        "transferSize": 554,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "120TPVinvnegNoSubject",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 224,
+        "transferSize": 310,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "121TPVinvnegOnePredicate",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 237,
+        "transferSize": 635,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "122TPVinvnegTwoPredicates",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 227,
+        "transferSize": 634,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "123TPVinvnegNoPredicates",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 206,
+        "transferSize": 635,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "124TPVcombSelfloop",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 240,
+        "transferSize": 1109,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "125TPVcombNoSubject",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 219,
+        "transferSize": 618,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "126TPVcombOnePredicateEach",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 223,
+        "transferSize": 1354,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "127TPVcombTwoPredicates",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 216,
+        "transferSize": 1355,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "128TPVcombNoPredicate",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 212,
+        "transferSize": 1356,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "129TPVcombOneToFiveRatio",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 224,
+        "transferSize": 1356,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "130TPVcombFiveToOneRatio",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 216,
+        "transferSize": 1354,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "131VPTinverseOneMatch",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 215,
+        "transferSize": 357,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "132VPTinverseThreeMatches",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 211,
+        "transferSize": 435,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "133VPTinverseSelfloop",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 234,
+        "transferSize": 360,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "134VPTinverseNoObject",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 226,
+        "transferSize": 332,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "135VPTinverseNoPredicate",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 211,
+        "transferSize": 329,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "136VPTsequenceOneMatch",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 199,
+        "transferSize": 513,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "137VPTsequenceThreMatches",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 213,
+        "transferSize": 592,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "138VPTsequenceSelfloop",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 221,
+        "transferSize": 520,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "139VPTsequenceCycle",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 205,
+        "transferSize": 514,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "140VPTsequenceNoObject",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 225,
+        "transferSize": 486,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "141VPTsequenceNoPredicate",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 220,
+        "transferSize": 495,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "142VPTalternativeOneMatch",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 226,
+        "transferSize": 689,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "143VPTalternativeThreeMatches",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 227,
+        "transferSize": 773,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "144VPTalternativeSelfloop",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 228,
+        "transferSize": 688,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "145VPTalternativeNoObject",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 221,
+        "transferSize": 664,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "146VPTalternativeNoPredicate",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 218,
+        "transferSize": 668,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "147VPTalternativeSamePredicate",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 225,
+        "transferSize": 730,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "148VPTexistTwoMatches",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 216,
+        "transferSize": 364,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "149VPTexistFourMatches",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 237,
+        "transferSize": 450,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "150VPTexistSelfloop",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 203,
+        "transferSize": 369,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "151VPTexistNoObject",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 203,
+        "transferSize": 333,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "152VPTexistNoPredicate",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 226,
+        "transferSize": 332,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "153VPTexistNoPredicateObject",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 222,
+        "transferSize": 344,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "154VPT+OneMatch",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 236,
+        "transferSize": 690,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "155VPT+ThreeMatches",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 232,
+        "transferSize": 1424,
+        "requests": 4,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "156VPT+Selfloop",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 212,
+        "transferSize": 737,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "157VPT+NoObject",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 211,
+        "transferSize": 333,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "158VPT+NoPredicate",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 211,
+        "transferSize": 332,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "159VPT+PathLengthTwo",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 228,
+        "transferSize": 1063,
+        "requests": 3,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "160VPT+PathLengthFive",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 252,
+        "transferSize": 2170,
+        "requests": 6,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "161VPT+CycleLengthThree",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 240,
+        "transferSize": 1472,
+        "requests": 4,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "162VPT+CycleLEngthSix",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 275,
+        "transferSize": 2581,
+        "requests": 7,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "163VPTstarFourMatches",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 239,
+        "transferSize": 1423,
+        "requests": 4,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "164VPTstarSelfloop",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 223,
+        "transferSize": 369,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "165VPTstarNoObject",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 221,
+        "transferSize": 334,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "166VPTstarNoPredicate",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 212,
+        "transferSize": 332,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "167VPTstarPathLengthTwo",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 224,
+        "transferSize": 1064,
+        "requests": 3,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "168VPTstarPathLengthFive",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 264,
+        "transferSize": 2172,
+        "requests": 6,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "169VPTstarCycleLengthThree",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 227,
+        "transferSize": 1103,
+        "requests": 3,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "170VPTstarCycleLengthSix",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 244,
+        "transferSize": 2212,
+        "requests": 6,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "171VPTnegatedSelfloop",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 214,
+        "transferSize": 554,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "172VPTnegatedNoObject",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 225,
+        "transferSize": 307,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "173VPTnegatedOnePredicate",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 199,
+        "transferSize": 635,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "174VPTnegatedTwoPredicates",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 215,
+        "transferSize": 309,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "175VPTnegatedNoPredicate",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 223,
+        "transferSize": 636,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "176VPTinvnegSelfloop",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 236,
+        "transferSize": 552,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "177VPTinvnegNoObject",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 198,
+        "transferSize": 310,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "178VPTinvnegOnePredicate",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 223,
+        "transferSize": 555,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "179VPTinvnegTwoPredicates",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 235,
+        "transferSize": 553,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "180VPTinvnegNoPredicate",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 223,
+        "transferSize": 554,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "181VPTcombSelfloop",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 237,
+        "transferSize": 1109,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "182VPTcombNoSubject",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 226,
+        "transferSize": 619,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "183VPTcombOnePredicateEach",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 214,
+        "transferSize": 1111,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "184VPTcombTwoPredicatesEach",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 212,
+        "transferSize": 1354,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "185VPTcombNoPredicate",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 213,
+        "transferSize": 1109,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "186VPTcombOneToFive",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 226,
+        "transferSize": 1356,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "187VPTcombFiveToOne",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 207,
+        "transferSize": 1355,
+        "requests": 2,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "188VPVinverseOneMatch",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 204,
+        "transferSize": 368,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "189VPVinverseThreeMatches",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 238,
+        "transferSize": 519,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "190VPVinverseSelfloop",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 229,
+        "transferSize": 370,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "191VPVinverseNoPredicate",
+        "type": "Inverse", "template": "^(_)",
+        "executionTime": 223,
+        "transferSize": 300,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "192VPVsequenceOneMatch",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 191,
+        "transferSize": 525,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "193VPVsequenceThreeMatches",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 197,
+        "transferSize": 677,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "194VPVsequenceSelfloop",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 200,
+        "transferSize": 531,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "195VPVsequenceCycle",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 224,
+        "transferSize": 524,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "196VPVsequenceNoPredicate",
+        "type": "Sequence", "template": "(_/_)",
+        "executionTime": 214,
+        "transferSize": 470,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "197VPValternativeOneMatch",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 525,
+        "transferSize": 21639,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "198VPValternativeThreeMatches",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 481,
+        "transferSize": 21509,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "199VPValternativeSelfloop",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 533,
+        "transferSize": 21530,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "200VPValternativeNoPredicate",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 464,
+        "transferSize": 21803,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "201VPValternativeSamePredicate",
+        "type": "Alternative", "template": "(_|_)",
+        "executionTime": 465,
+        "transferSize": 21466,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "202VPVexistPredicateExists",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 355,
+        "transferSize": 14619,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "203VPVexistNoPredicate",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 352,
+        "transferSize": 14767,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "204VPVexistSelfloop",
+        "type": "Existential", "template": "(_)?",
+        "executionTime": 355,
+        "transferSize": 14679,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "205VPV+OneMatch",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 224,
+        "transferSize": 1073,
+        "requests": 3,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "206VPV+ThreeMatches",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 254,
+        "transferSize": 1973,
+        "requests": 5,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "207VPV+Selfloop",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 227,
+        "transferSize": 1123,
+        "requests": 3,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "208VPV+NoPredicate",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 204,
+        "transferSize": 310,
+        "requests": 1,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "209VPV+PathLengthTwo",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 248,
+        "transferSize": 2231,
+        "requests": 6,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "210VPV+PathLengthFive",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 335,
+        "transferSize": 7893,
+        "requests": 21,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "211VPV+CycleLengthThree",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 286,
+        "transferSize": 4975,
+        "requests": 13,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "212VPV+CycleLengthSix",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 495,
+        "transferSize": 16304,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "213VPVstarFourMatches",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 396,
+        "transferSize": 15305,
+        "requests": 24,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "214VPVstarSelfloop",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 345,
+        "transferSize": 14681,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "215VPVstarNoPredicate",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 348,
+        "transferSize": 14764,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "216VPVstarPathLengthTwo",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 397,
+        "transferSize": 15701,
+        "requests": 25,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "217VPVstarPathLengthFive",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 421,
+        "transferSize": 20125,
+        "requests": 37,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "218VPVstarCycleLengthThree",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 399,
+        "transferSize": 16908,
+        "requests": 28,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "219VPVstarCycleLengthSix",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 509,
+        "transferSize": 25921,
+        "requests": 52,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "220VPVnegatedSelfloop",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 352,
+        "transferSize": 19089,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "221VPVnegatedOnePredicateEach",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 359,
+        "transferSize": 19084,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "222VPVnegatedTwoPredicatesEach",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 377,
+        "transferSize": 19078,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "223VPVnegatedNoPredicate",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 363,
+        "transferSize": 19090,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "224VPVnegatedAllPredicates",
+        "type": "Negated Property Set", "template": "!(_)",
+        "executionTime": 369,
+        "transferSize": 19091,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "225VPVinvnegSelfloop",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 383,
+        "transferSize": 19090,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "226VPVinvnegOnePredicate",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 436,
+        "transferSize": 19089,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "227VPVinvnegTwoPredicatesEach",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 356,
+        "transferSize": 19095,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "228VPVinvnegNoPredicates",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 357,
+        "transferSize": 19084,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "229VPVinvnegAllPredicates",
+        "type": "Inverse Negated Property Set", "template": "^!(_)",
+        "executionTime": 376,
+        "transferSize": 19087,
+        "requests": 22,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "230VPVcombSelfloop",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 491,
+        "transferSize": 30416,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "231VPVcombOnePredicateEach",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 481,
+        "transferSize": 30420,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "232VPVcombTwoPredicatesEach",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 560,
+        "transferSize": 30413,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "233VPVcombNoPredicate",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 520,
+        "transferSize": 30410,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "234VPVcombOneToFiveRatio",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 521,
+        "transferSize": 30414,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "235VPVcombFiveToOneRatio",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 557,
+        "transferSize": 30408,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "236VPVcombAllPredicates",
+        "type": "Negated and Inverse Property Set", "template": "!(_)|^!(_)",
+        "executionTime": 476,
+        "transferSize": 30423,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "237TPVcombAllPredicates",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 286,
+        "transferSize": 3805,
+        "requests": 7,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "238VPTcombAllPredicates",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 235,
+        "transferSize": 3805,
+        "requests": 7,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "239VPVcombAllPredicates",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 577,
+        "transferSize": 25710,
+        "requests": 43,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "240TPVcombAllPredicates",
+        "type": "Reflexive-Closure", "template": "(_)*",
+        "executionTime": 237,
+        "transferSize": 3264,
+        "requests": 6,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "241VPTcombAllPredicates",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 259,
+        "transferSize": 3261,
+        "requests": 6,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    },
+    {
+        "name": "242VPVcombAllPredicates",
+        "type": "Transitive Reflexive-Closure", "template": "(_)+",
+        "executionTime": 631,
+        "transferSize": 32198,
+        "requests": 52,
+        "completeness": 1,
+        "soundness": 1,
+        "error": false
+    }
+]

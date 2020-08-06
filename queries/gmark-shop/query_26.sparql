@@ -1,0 +1,1 @@
+PREFIX : <http://example.org/gmark/> SELECT  ?x2 ?x0 ?x3 ?x1 WHERE {   ?x0 ((:pfollows/:pemail/^:pjobTitle)|(:pbirthDate/^:pbirthDate)) ?x1 . ?x0 ((:pfriendOf)|(:phomepage/^:phomepage/:pauthor)|(^:pdirector/:phomepage/^:psubscribes)) ?x2 . ?x1 ((:pfriendOf)|(^:pemployee/:pcontactPoint/:pfriendOf)|(^:peditor/:peditor/^:pactor/:pdirector)) ?x3 .  }

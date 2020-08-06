@@ -1,0 +1,1 @@
+PREFIX : <http://example.org/gmark/> SELECT  ?x0 ?x3 WHERE {   ?x0 ((^:pexpires/:phasGenre)|(^:pvalidThrough/:ppriceValidUntil/^:pexpires/:phasGenre)) ?x1 . ?x1 (^:phasGenre/:phasGenre) ?x2 . ?x2 ((^:phasGenre/:pconductor/:pgender)|(^:phasGenre/^:plike/:pgender)) ?x3 .  }

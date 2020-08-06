@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "file": "sage_mono_automaton_metrics.csv",
+            "label": "SaGe-A"
+        },
+        {
+            "file": "sage_multi_automaton_metrics.csv",
+            "label": "SaGe-AC"
+        }
+    ],
+    "figure": {
+        "title": ""
+    },
+    "subplots": [
+        {
+            "metric": "time",
+            "axe_label": "Execution time (sec)"
+        },
+        {
+            "metric": "httpCalls",
+            "axe_label":"Number of HTTP calls"
+        },
+        {
+            "metric": "dataTransfer",
+            "axe_label": "Data transfer (KBytes)"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "approaches": [
+        {
+            "id": "sage-mono-predicate-automata",
+            "server": "http://localhost:8080/sparql",
+            "graph": "http://localhost:8080/sparql/benchmark",
+            "output": "./beseppi-sage-mono-predicate-automata"
+        },
+        {
+            "id": "sage-multi-predicate-automata",
+            "server": "http://localhost:8080/sparql",
+            "graph": "http://localhost:8080/sparql/benchmark",
+            "output": "./beseppi-sage-multi-predicate-automata"
+        },
+        {
+            "id": "comunica",
+            "server": "http://localhost:8000",
+            "graph": "http://localhost:8000/benchmark",
+            "output": "./beseppi-comunica"
+        },
+        {
+            "id": "sage-jena",
+            "server": "http://localhost:8080/sparql",
+            "graph": "http://localhost:8080/sparql/benchmark",
+            "output": "./beseppi-sage-jena"
+        }
+    ]
+}

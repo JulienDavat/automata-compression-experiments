@@ -1,0 +1,33 @@
+{
+    "data": [
+        {
+            "file": "sage_multi_automaton_metrics.csv",
+            "label": "SaGe-AC"
+        },
+        {
+            "file": "jena_sage_metrics.csv",
+            "label": "SaGe-Jena"
+        },
+        {
+            "file": "comunica_metrics.csv",
+            "label": "Comunica"
+        }
+    ],
+    "figure": {
+        "title": ""
+    },
+    "subplots": [
+        {
+            "metric": "time",
+            "axe_label": "Execution time (sec)"
+        },
+        {
+            "metric": "httpCalls",
+            "axe_label":"Number of HTTP calls"
+        },
+        {
+            "metric": "dataTransfer",
+            "axe_label": "Data transfer (KBytes)"
+        }
+    ]
+}

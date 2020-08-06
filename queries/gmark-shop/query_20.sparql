@@ -1,0 +1,1 @@
+PREFIX : <http://example.org/gmark/> SELECT  ?x0 ?x6 WHERE {   ?x0 (:pincludes) ?x1 . ?x1 (:ptext) ?x2 . ?x3 (:ppublished) ?x2 . ?x3 (:peditor) ?x4 . ?x4 (:pfriendOf)+ ?x5 . ?x5 (:pgivenName) ?x6 .  }

@@ -1,0 +1,1 @@
+PREFIX : <http://example.org/gmark/> SELECT  ?x0 ?x3 WHERE {   ?x0 ((^:pemail/^:pauthor/:pexpires)|(^:pcomposer/:popus/^:pprice/:ppurchaseDate)|(^:pdescription/:pprintPage/^:pprintSection/:pdatePublished)) ?x1 . ?x1 (^:pdatePublished/:ppublished/^:paward) ?x2 . ?x2 (((^:ppurchaseFor/:ppurchaseFor)|(^:pincludes/:pincludes/:phomepage/^:ptrailer)))+ ?x3 .  }
