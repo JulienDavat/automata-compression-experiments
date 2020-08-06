@@ -8,7 +8,7 @@ QUERY_TIMEOUT=$5
 
 if [ "$#" -ne 5 ]; then
   echo "Illegal number of parameters."
-  echo "Usage: ./run_comunica.sh <server> <default-graph> <queries-directory> <output-folder> <query-timeout>"
+  echo "Usage: ./comunica.sh <server> <default-graph> <queries-directory> <output-folder> <query-timeout>"
   exit 1
 fi
 
